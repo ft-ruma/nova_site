@@ -414,3 +414,21 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
         font-size: 20px;
     }
 }
+/* Custom Booking Widget Styling */
+#sbw_jv6jc3 {
+    width: 100%;
+}
+
+#sbw_jv6jc3 iframe {
+    border-radius: 12px;
+    border: none !important;
+    width: 100% !important;
+}
+
+/* Ensure glass panel height adjusts on mobile */
+@media (max-width: 768px) {
+    #booking .glass-panel {
+        min-height: 700px;
+        padding: 1rem;
+    }
+}
